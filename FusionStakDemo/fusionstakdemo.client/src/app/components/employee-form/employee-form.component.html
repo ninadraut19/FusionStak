@@ -1,0 +1,53 @@
+<div>
+    <form [formGroup]="employeeForm" (ngSubmit)="save()">
+        <div mat-dialog-title style="background-color: black; color: aliceblue; padding: 3%;">
+            <h3 style="text-align: center;">Employee Form</h3>
+        </div>
+        <br>
+        <div mat-dialog-content class="content"
+            style="align-items: center; padding: 30%; padding-top: 0%; padding-bottom: 0%;">
+            <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>FirstName</mat-label>
+                    <input matInput="text" placeholder="FirstName" formControlName="firstName" />
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>LastName</mat-label>
+                    <input matInput="text" placeholder="LastName" formControlName="lastName" />
+                </mat-form-field>
+            </div>
+
+            <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Username</mat-label>
+                    <input matInput="text" placeholder="Username" formControlName="username" />
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input matInput="text" placeholder="Password" formControlName="password" />
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline">
+                    <mat-label>Role</mat-label>
+                    <input matInput="text" placeholder="Role" formControlName="role" />
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input matInput="text" placeholder="Email" formControlName="email" />
+                </mat-form-field>
+            </div>
+            <div class="flex justify-center">
+                @if(isEdit){
+                <button mat-raised-button color="primary" [disabled]="!employeeForm.valid">
+                    Update
+                </button>
+                }@else {
+                <button mat-raised-button color="primary" [disabled]="!employeeForm.valid">
+                    Add
+                </button>
+                }
+            </div>
+        </div>
+    </form>
+</div>

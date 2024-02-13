@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FusionStakDemo.Server", "FusionStakDemo.Server\FusionStakDemo.Server.csproj", "{BCC5E211-0682-4267-9627-42AAE547D34B}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "fusionstakdemo.client", "fusionstakdemo.client\fusionstakdemo.client.esproj", "{3A3EDB53-EA00-405A-852B-FEEAD2DE28B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC5E211-0682-4267-9627-42AAE547D34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC5E211-0682-4267-9627-42AAE547D34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC5E211-0682-4267-9627-42AAE547D34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC5E211-0682-4267-9627-42AAE547D34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3EDB53-EA00-405A-852B-FEEAD2DE28B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3EDB53-EA00-405A-852B-FEEAD2DE28B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3EDB53-EA00-405A-852B-FEEAD2DE28B8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3A3EDB53-EA00-405A-852B-FEEAD2DE28B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3EDB53-EA00-405A-852B-FEEAD2DE28B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3EDB53-EA00-405A-852B-FEEAD2DE28B8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54FDD1DF-A0BF-4650-96D9-11ECCBDDA76C}
+	EndGlobalSection
+EndGlobal
